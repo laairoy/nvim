@@ -10,6 +10,10 @@ call plug#end()
 
 source $HOME/.config/nvim/plug-config/coc.vim
 
+" Copy and paste from Cliboard
+" Needs xset installed (sudo apt install xset)
+set clipboard+=unnamedplus
+
 " Comments in Vimscript start with a `"`.
 
 " If you open this file in Vim, it'll be syntax highlighted for you.
